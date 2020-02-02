@@ -1,0 +1,10 @@
+D:\NetNote\NetNote\bin\Debug\netcoreapp2.0\NetNote.deps.json
+D:\NetNote\NetNote\bin\Debug\netcoreapp2.0\NetNote.runtimeconfig.json
+D:\NetNote\NetNote\bin\Debug\netcoreapp2.0\NetNote.runtimeconfig.dev.json
+D:\NetNote\NetNote\bin\Debug\netcoreapp2.0\NetNote.dll
+D:\NetNote\NetNote\bin\Debug\netcoreapp2.0\NetNote.pdb
+D:\NetNote\NetNote\obj\Debug\netcoreapp2.0\NetNote.csproj.CoreCompileInputs.cache
+D:\NetNote\NetNote\obj\Debug\netcoreapp2.0\NetNote.AssemblyInfoInputs.cache
+D:\NetNote\NetNote\obj\Debug\netcoreapp2.0\NetNote.AssemblyInfo.cs
+D:\NetNote\NetNote\obj\Debug\netcoreapp2.0\NetNote.dll
+D:\NetNote\NetNote\obj\Debug\netcoreapp2.0\NetNote.pdb

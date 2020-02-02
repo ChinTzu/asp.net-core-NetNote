@@ -1,0 +1,21 @@
+﻿@inject Microsoft.AspNetCore.Identity.SignInManager<NetNote.Models.NoteUser> SignInManager
+@inject Microsoft.AspNetCore.Identity.UserManager<NetNote.Models.NoteUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <form asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm" class="navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="javascript:;">@UserManager.GetUserName(User)</a>
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Logout</a></li>
+        </ul>
+    </form>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+        <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+    </ul>
+}
